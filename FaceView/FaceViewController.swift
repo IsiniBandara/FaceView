@@ -14,11 +14,11 @@ class FaceViewController: UIViewController, ARSCNViewDelegate {
     var detections: String = ""
     
     let message: UILabel = {
-        let lable = UILabel()
-        lable.translatesAutoresizingMaskIntoConstraints = false
-        lable.font = .systemFont(ofSize: 24)
-        lable.backgroundColor = .systemCyan
-        return lable
+        let lable1 = UILabel()
+        lable1.translatesAutoresizingMaskIntoConstraints = false
+        lable1.font = .systemFont(ofSize: 24)
+        lable1.backgroundColor = .systemCyan
+        return lable1
     }()
     
     let arView: ARSCNView = {
